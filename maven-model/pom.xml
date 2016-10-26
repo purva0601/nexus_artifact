@@ -47,6 +47,14 @@ under the License.
       <artifactId>commons-lang3</artifactId>
     </dependency>
   </dependencies>
+  
+  
+  <distributionManagement>
+    <snapshotRepository>
+      <id>maven-public</id>
+      <url>http://192.168.56.103:8081/repository/maven-public/</url>
+   </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <plugins>
