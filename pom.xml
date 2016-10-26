@@ -111,12 +111,7 @@ under the License.
     <system>Jenkins</system>
     <url>https://builds.apache.org/job/maven-3.x/</url>
   </ciManagement>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>maven-public</id>
-      <url>http://192.168.56.103:8081/repository/maven-public/</url>
-   </snapshotRepository>
-  </distributionManagement>
+  
 
   <contributors>
     <contributor>
